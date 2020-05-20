@@ -1,0 +1,9 @@
+<h1>Buscador<small> {{ termino }} </small> </h1>
+<hr>
+
+
+<div class="card-columns">
+
+ <app-buscador [heroe]="heroe" [index]="heroe.idx" *ngFor="let heroe of heroes;"></app-buscador>
+
+</div>
